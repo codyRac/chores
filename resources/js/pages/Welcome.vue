@@ -42,11 +42,7 @@ import AppLogo from '../components/AppLogoIcon.vue'
       <section
         class="relative overflow-hidden rounded-2xl border border-sky-200/60 bg-gradient-to-br from-sky-100 to-sky-50 p-8 shadow-sm md:p-12 dark:border-slate-800 dark:from-slate-900 dark:to-slate-950"
       >
-        <!-- subtle dots -->
-        <div
-          class="pointer-events-none absolute inset-0 bg-[radial-gradient(theme(colors.sky.200/30)_1px,transparent_1px)] [background-size:16px_16px]"
-          aria-hidden="true"
-        />
+
 
         <div class="relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
           <!-- Placeholder logo & heading -->
