@@ -46,15 +46,15 @@ import AppLogo from '../components/AppLogoIcon.vue'
 
         <div class="relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
           <!-- Placeholder logo & heading -->
-          <div class="flex items-center gap-4">
+            <div class="flex flex-col sm:flex-row sm:items-center text-center md:text-left gap-3 sm:gap-4">
             <!-- Placeholder logo -->
             <div
-              class="grid size-16 place-items-center rounded-xl bg-sky-500 text-white shadow-md ring-1 ring-sky-600/30 dark:bg-sky-600 dark:ring-sky-400/30"
+              class="grid  size-16 mx-auto  place-items-center rounded-xl bg-sky-500 text-white shadow-md ring-1 ring-sky-600/30 dark:bg-sky-600 dark:ring-sky-400/30"
               aria-hidden="true"
             >
               <!-- simple placeholder mark -->
 
-              <AppLogo class="size-8"></AppLogo>
+              <AppLogo class=" size-8"></AppLogo>
             </div>
 
             <div>
@@ -76,7 +76,7 @@ import AppLogo from '../components/AppLogoIcon.vue'
             </Link>
 
           <!-- CTA -->
-          <div v-else class="flex items-center gap-3">
+          <div v-else class="flex items-center  text-center gap-3">
 
 
             <Link
