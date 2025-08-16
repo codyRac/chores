@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="256" height="256" viewBox="0 0 256 256"
-     fill="none">
-  <!-- Optional: background circle for better visibility -->
-  <circle cx="128" cy="128" r="128" fill="#1E3A8A"/> <!-- dark blue bg -->
-  
-  <g stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Stylized C -->
-    <path d="M178 56 A72 72 0 1 0 178 200" />
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 512 512">
+  <title>Choreli – Logomark</title>
+  <desc>White C-check logomark on transparent background</desc>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Open C (gap on right side) -->
+    <path d="M409.209 384.558
+             A200 200 0 1 1 409.209 127.442"
+          stroke-width="52"/>
     <!-- Check mark -->
-    <path d="M94 132 L118 156 L162 112" />
+    <path d="M160 282 L230 352 L372 190" stroke-width="56"/>
   </g>
 </svg>
